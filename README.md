@@ -1,6 +1,6 @@
 # Central Data
 
-## These are just some data files I use a lot, and could maybe be useful to other people. If you're looking for very sophisticated / deeply vetted stuff, look elsewhere.
+## These are just some data files I use a lot, might come in handy for other folks. If you're looking for very sophisticated / deeply vetted stuff, look elsewhere.
 
 *Here's a quick description:*
 
