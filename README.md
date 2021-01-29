@@ -1,8 +1,10 @@
 # Central Data
 
-## These are just some data files I use a lot, and could maybe be useful to other people. Here's a quick description:
+## These are just some data files I use a lot, and could maybe be useful to other people. If you're looking for very sophisticated / deeply vetted stuff, look elsewhere.
 
-**GOSE_TTV_summaryfile.csv** -- This is a one-stop shop for transit timings. I've taken 500 draws from the joint posteriors produced for our Orbital Sampling Effect paper ([Paper](https://ui.adsabs.harvard.edu/abs/2018AJ....155...36T/abstract) | [Repository](https://github.com/alexteachey/TTV_posteriors)) to produce transit timings and uncertainties (see the paper for more information on the methodology). From there I just fit a line to get a best period linear ephemeris, and computed deviations from that line. Fast and dirty. *This is a comma-separated value file... open with Excel (or alternative) or Pandas.*
+*Here's a quick description:*
+
+**GOSE_TTV_summaryfile.csv** -- Here are transit timings we produced for about ~775 planets. I've taken 500 draws from the joint posteriors produced for our Orbital Sampling Effect paper ([Paper](https://ui.adsabs.harvard.edu/abs/2018AJ....155...36T/abstract) | [Repository](https://github.com/alexteachey/TTV_posteriors)) to produce transit timings and uncertainties (see the paper for more information on the methodology). From there I just fit a line to get a best period linear ephemeris, and computed deviations from that line. Fast and dirty. *This is a comma-separated value file... open with Excel (or alternative) or Pandas.*
 
 **cumkoi_forecast_masses.csv** -- Takes the planet radii for every KOI in the cumulative KOI list from NASA Exoplanet Archive (as of January 28, 2021) and uses the [FORECASTER code](https://github.com/chenjj2/forecaster) to predict masses for these planets. Note that this has been done in a far more sophisticated manner by Chen and Kipping ([Paper](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.2753C/abstract) | [Repository](https://github.com/chenjj2/forecasts)) but this is maybe a bit easier to access. *This is a comma-separated value file... open with Excel (or alternative) or Pandas.*
 
