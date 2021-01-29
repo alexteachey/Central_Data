@@ -10,4 +10,4 @@
 
 [**every_kic_lc_list.npy**](https://github.com/alexteachey/Central_Data/blob/main/every_kic_lc_list.npy) -- Prett self-explanatory. It should be a list of every KIC light curve. Note this is *NOT* the same thing as the full list of KICs... there's a whole lot more of those (about 13 million?). This is the list of the ~200,000 light curves that were obtained by *Kepler* -- many of which do not have known planets, but are downloadable. *This is a numpy array. Load using numpy.load()*
 
-[**every_kic_lc_without_a_planet.npy**](https://github.com/alexteachey/Central_Data/blob/main/every_kic_lc_without_a_planet.npy) -- Sometimes you want to look at a light curve that isn't ruined by all those pesky planets. This list is for you. *This is a numpy array. Load using numpy.load() *
+[**every_kic_lc_without_a_planet.npy**](https://github.com/alexteachey/Central_Data/blob/main/every_kic_lc_without_a_planet.npy) -- Sometimes you want to look at a light curve that isn't ruined by all those pesky planets. This list is for you. *This is a numpy array. Load using numpy.load()*
